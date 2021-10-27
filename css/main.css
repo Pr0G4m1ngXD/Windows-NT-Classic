@@ -164,3 +164,10 @@ body {
 .dontshow {
     display: none !important; 
 }
+button, input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0px; /* fuck you apple */
+    height: 24px;
+    border: 1px solid black;
+    
+}

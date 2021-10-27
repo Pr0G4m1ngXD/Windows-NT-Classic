@@ -1,0 +1,14 @@
+.taskbar {
+    position: absolute;
+    bottom: 0px;
+    height: 24px;
+    width: calc(100vw - 16px);
+    background: linear-gradient(90deg, lightskyblue 0%, lightblue 100%);
+    padding: 8px;
+}
+body {
+    background: cadetblue;
+}
+.start {
+    background: lightskyblue;
+}
