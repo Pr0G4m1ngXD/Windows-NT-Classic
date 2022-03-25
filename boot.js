@@ -34,12 +34,14 @@ SOFTWARE.
 */
 
 //Recovery Mode
-document.addEventListener('keydown', function(event) {
-    if (event.ctrlKey && event.key === "Delete") {
-      //TODO: Write Recovery Mode
+//listen for f8 key
+document.addEventListener('keydown', function (e) {
+    if (e.keyCode == 119) {
+        //f8 key pressed
+        //load recovery mode
+        loadScript("FS/system/libjs/recovery.js");
     }
-  });
-  
+});
 
 
   function loadScriptDynamic(src) {
