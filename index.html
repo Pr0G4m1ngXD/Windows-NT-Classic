@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div class="ntload loadscreen">
+    <div class="ntload loadscreen load">
         <img class="fadeIn" src="images/winlogo.png" width="100px" height="100px">
         <span class="fadeIn">Windows NT Classic</span>
     </div>
-    <div class="loadscreen">
+    <div class="loadscreen load">
         <div class="progressbars fadeIn">
             <div class="progressbar">
                 <div class="progress redbg" id="1prog"></div>
@@ -27,13 +27,13 @@
             </div>
         </div>
     </div>
-    <div class="disclaimer fadeIn loadscreen"><span>Microsus©2021<br>Press F8 to enter Recovery</span></div>
-    <div class="fadeIn loadscreen" id="loadstate"><span id="loadstatetext"><noscript>Javascript Disabled</noscript></span></div>
+    <div class="disclaimer fadeIn loadscreen load"><span>Microsus©2021<br>Press F8 to enter Recovery</span></div>
+    <div class="fadeIn loadscreen load" id="loadstate"><span id="loadstatetext"><noscript>Javascript Disabled</noscript></span></div>
     <div class="window dontshow">
         <div class="titlebar"></div>
         <div class="contentwin"></div>
     </div>
-    
+    <div id="desktopenv"></div>
     <script src="boot.js"></script>
     
 </body>

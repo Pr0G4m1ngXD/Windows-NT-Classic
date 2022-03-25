@@ -85,7 +85,7 @@ loadScripts(["FS/system/libjs/idbfs.js"]).then(function () {
     document.getElementById("loadstatetext").innerHTML = "Starting Interface";
     document.getElementById("3prog").style.width = "100px";
     
-    loadScript("FS/desktop/debugapp.js");
+    loadScript("FS/desktop/desktop.js");
 });
 
 
