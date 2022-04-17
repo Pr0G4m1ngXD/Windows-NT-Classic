@@ -1,5 +1,5 @@
 /*
-THIS NAME IS A PLACEHOLDER, FOR SUGGESTIONS HEAD TO MY DISCORD SERVER AT                                                                            
+No longer a placeholder i like the name                                                                         
  _ _ _ _       _                  _____ _____    _____ _             _     
 | | | |_|___ _| |___ _ _ _ ___   |   | |_   _|  |     | |___ ___ ___|_|___ 
 | | | | |   | . | . | | | |_ -|  | | | | | |    |   --| | .'|_ -|_ -| |  _|
@@ -32,25 +32,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 */
-
-//Recovery Mode
-//listen for f8 key
-document.addEventListener('keydown', function (e) {
-    if (e.keyCode == 119) {
-        //f8 key pressed
-        //load recovery mode
-        loadScript("FS/system/libjs/recovery.js");
-    }
-});
-
-
-  function loadScriptDynamic(src) {
-    var s = document.createElement('script');
-    s.src = src;
-    s.type = "text/javascript";
-    s.async = false;                                 // <-- this is important
-    document.getElementsByTagName('head')[0].appendChild(s);
-}
-loadScriptDynamic("FS/system/libjs/system.js");
-
-
+import {boot} from "./boot"
+boot();
