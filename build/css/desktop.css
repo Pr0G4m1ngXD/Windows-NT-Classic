@@ -6,12 +6,33 @@
     background: linear-gradient(90deg, lightskyblue 0%, lightblue 100%);
     padding: 8px;
 }
-body {
-    background: lightblue;
-}
+
 .start {
     background: lightskyblue;
 }
+
 .start:hover {
     background: lightblue;
+}
+
+.window {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 16px;
+    left: 16px;
+    background: white;
+    z-index: 100;
+}
+
+.titlebar {
+    height: 32px;
+    width: 100%;
+    background: lightblue;
+}
+
+.contentwin {
+    width: 100%;
+    height: calc(100% - 32px);
+    background: aliceblue;
 }

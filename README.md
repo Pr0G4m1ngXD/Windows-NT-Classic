@@ -18,3 +18,8 @@ This is unfinished, expect the the Desktop and JSRE to be nonfunctional or broke
 Windows NT Classic is using the MIT License. More details in LICENSE.txt
 
 Windows(C) is a Trademark of Microsoft
+
+## Building
+
+Run "npm init" in build
+then "npm start" in build

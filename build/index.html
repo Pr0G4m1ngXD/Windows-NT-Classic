@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Windows</title>
+    <title>Windows NT Classic</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/anim.css">
+    <link rel="stylesheet" href="css/ntload.css">
+    <link rel="stylesheet" href="css/desktop.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-    <div class="ntload loadscreen load">
-        <img class="fadeIn" src="images/winlogo.png" width="100px" height="100px">
-        <span class="fadeIn">Windows NT Classic</span>
-    </div>
-    <div class="loadscreen load">
-        <div class="progressbars fadeIn">
-            <div class="progressbar">
-                <div class="progress redbg" id="1prog"></div>
-            </div>
-            <div class="progressbar">
-                <div class="progress greenbg" id="2prog"></div>
-            </div>
-            <div class="progressbar">
-                <div class="progress bluebg" id="3prog"></div>
-            </div>
-            <div class="progressbar">
-                <div class="progress yellowbg" id="4prog"></div>
+    <div id="container">
+        <div class="ntload loadscreen load">
+            <img class="fadeIn" src="images/winlogo.png" width="100px" height="100px">
+            <span class="fadeIn">Windows NT Classic</span>
+        </div>
+        <div class="loadscreen load">
+            <div class="progressbars fadeIn">
+                <div class="progressbar">
+                    <div class="progress redbg" id="1prog"></div>
+                </div>
+                <div class="progressbar">
+                    <div class="progress greenbg" id="2prog"></div>
+                </div>
+                <div class="progressbar">
+                    <div class="progress bluebg" id="3prog"></div>
+                </div>
+                <div class="progressbar">
+                    <div class="progress yellowbg" id="4prog"></div>
+                </div>
             </div>
         </div>
+        <div class="disclaimer fadeIn loadscreen load"><span>Microsus©2022<br>Press F8 to enter Recovery</span></div>
+        <div class="fadeIn loadscreen load" id="loadstate"><span id="loadstatetext"><noscript>Javascript Disabled</noscript></span></div>
     </div>
-    <div class="disclaimer fadeIn loadscreen load"><span>Microsus©2021<br>Press F8 to enter Recovery</span></div>
-    <div class="fadeIn loadscreen load" id="loadstate"><span id="loadstatetext"><noscript>Javascript Disabled</noscript></span></div>
-    <div class="window dontshow">
-        <div class="titlebar"></div>
-        <div class="contentwin"></div>
-    </div>
-    <div id="desktopenv"></div>
+    <div id="desktop"></div>
     <script src="dist/main.js"></script>
-    
+
 </body>
+
 </html>
