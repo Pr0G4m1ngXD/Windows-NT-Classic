@@ -1,4 +1,4 @@
-.taskbar {
+#taskbar {
     position: absolute;
     bottom: 0px;
     height: 24px;
@@ -23,16 +23,33 @@
     left: 16px;
     background: white;
     z-index: 100;
+    overflow: hidden;
 }
 
 .titlebar {
     height: 32px;
     width: 100%;
     background: lightblue;
+    display: flex;
+    cursor: move;
 }
 
 .contentwin {
     width: 100%;
     height: calc(100% - 32px);
     background: aliceblue;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 8px;
+}
+p, span {
+    margin: 0px;
+    padding: 8px;
+}
+#desktop {
+    position: absolute;
+    top: 0px;
 }
