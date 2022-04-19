@@ -27,6 +27,9 @@ export const boot = () => {
     //create taskbar
     let taskbar = new Taskbar();
     taskbar.init();
+    //play start sound
+    let startSound = new Audio("./sounds/boot.mp3");
+    startSound.play();
     //create window
     let win = new WindowComponents("Welcome", `<h1>Welcome to Windows NT Classic</h1>`, 600, 100, 50, 50, "", "desktop");
     win.activate();

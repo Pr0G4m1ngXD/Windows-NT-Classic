@@ -5,9 +5,7 @@ No longer a placeholder i like the name
 | | | | |   | . | . | | | |_ -|  | | | | | |    |   --| | .'|_ -|_ -| |  _|
 |_____|_|_|_|___|___|_____|___|  |_|___| |_|    |_____|_|__,|___|___|_|___|
                                                                            
-This is Windows NT Classic made by Pr0G4m1ngXD and inspired by Windows 93, 96 and Whistler
-
-This is the code that adds functions for FS, Recovery mode and then starts system.js on FS
+This is Windows NT Classic made by Pr0G4m1ngXD and inspired by Windows 93, 96 and Whistler (Watercolor theme)
 
 MIT License
 

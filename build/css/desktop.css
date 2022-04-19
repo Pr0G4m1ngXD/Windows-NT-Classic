@@ -5,6 +5,7 @@
     width: calc(100vw - 16px);
     background: linear-gradient(90deg, lightskyblue 0%, lightblue 100%);
     padding: 8px;
+    display: flex;
 }
 
 .start {
@@ -24,6 +25,7 @@
     background: white;
     z-index: 100;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .titlebar {
@@ -32,6 +34,8 @@
     background: lightblue;
     display: flex;
     cursor: move;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contentwin {
@@ -52,4 +56,8 @@ p, span {
 #desktop {
     position: absolute;
     top: 0px;
+}
+.closebutton {
+    background: coral;
+    margin-right: 8px;
 }

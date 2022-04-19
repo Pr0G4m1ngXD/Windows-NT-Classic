@@ -30,6 +30,18 @@ export class WindowComponents {
                     title.innerHTML = this.title;
                     title.id = this.id + "header";
                 titlebar.appendChild(title);
+                //add close button to titlebar
+                let closebutton = document.createElement("button");
+                    closebutton.classList.add("closebutton");
+                    closebutton.innerHTML = "&times;";
+                    closebutton.id = this.id + "closebutton";
+                    closebutton.addEventListener("click", () => {
+                        //remove window
+                        document.getElementById(this.id).remove();
+                        //remove eventlistener
+                        document.removeEventListener("keydown", this.keyListener);
+                    });
+                titlebar.appendChild(closebutton);
             //add content to window
             let content = document.createElement("div");
                 content.classList.add("contentwin");

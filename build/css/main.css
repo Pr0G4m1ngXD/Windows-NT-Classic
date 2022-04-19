@@ -2,7 +2,7 @@ body {
     margin: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    background: black;
+    background: gray;
     overflow: hidden;
 }
 
@@ -11,9 +11,16 @@ body {
 }
 
 button, input {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 0px; /* fuck you apple */
     height: 24px;
     border: 1px solid black;
-    
+    outline: none;
+    background: white;
+}
+button:hover, input:hover {
+    background: aliceblue;
+}
+button:active, input:active {
+    background: white;
 }

@@ -6,6 +6,11 @@ export class Taskbar {
         //create div
         let taskbar = document.createElement("div");
         taskbar.id = "taskbar";
+        //add start button
+        let startbutton = document.createElement("button");
+        startbutton.id = "startbutton";
+        startbutton.innerText = "Start";
+        taskbar.appendChild(startbutton);
         taskbar.classList.add("fadeIn");
         document.body.appendChild(taskbar);
     }
